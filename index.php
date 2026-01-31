@@ -10,9 +10,9 @@ require_once __DIR__.'/includes/header.php';
 <?php
 $page = $_GET['page'] ?? 'home';
 if ($page === 'home') {
-    require __DIR__ . '/pages/home.php';
+    require __DIR__ . '/pages/home.html';
 }elseif ($page === 'login') {
-    require __DIR__ . '/pages/login.php';
+    require __DIR__ . '/pages/login.html';
 }
 ?>
 
