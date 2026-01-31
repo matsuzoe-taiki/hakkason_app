@@ -1,0 +1,20 @@
+# OS
+.DS_Store
+
+#Database
+*.db
+*.sqlite
+*.sqlite3
+
+#MAMP
+/Applications/MAMP
+
+#ENV files
+.env
+
+# Logs
+*.log
+
+#Editor
+.vscode/
+.idea/
