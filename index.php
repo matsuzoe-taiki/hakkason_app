@@ -7,7 +7,14 @@ require_once __DIR__.'/includes/function.php';
 require_once __DIR__.'/includes/header.php';
 ?>
 
-<h1>シンライズ</h1>
+<?php
+$page = $_GET['page'] ?? 'home';
+if ($page === 'home') {
+    require __DIR__ . '/pages/home.php';
+}elseif ($page === 'login') {
+    require __DIR__ . '/pages/login.php';
+}
+?>
 
 <?php
 //フッター
