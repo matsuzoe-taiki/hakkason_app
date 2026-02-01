@@ -6,10 +6,5 @@ startButton.addEventListener("click", () => {
     const username = userInput.value;
     localStorage.setItem("username", username);
     alert("データ保存完了");
+    window.location.href = '/hakkason_app/pages/home.html';
 });
-window.addEventListener("DOMContentLoaded", () => {
-    const saved = localStorage.getItem("username");
-    if (saved) {
-        window.location.href = '/hakkason_app/pages/home.html';
-    }
-})
