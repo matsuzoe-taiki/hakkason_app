@@ -4,7 +4,6 @@ const startButton = document.getElementById('startButton');
 
 startButton.addEventListener("click", () => {
     const username = userInput.value;
-    console.log(username);
     localStorage.setItem("username", username);
     alert("データ保存完了");
 });
