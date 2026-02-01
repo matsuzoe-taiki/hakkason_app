@@ -11,6 +11,6 @@ startButton.addEventListener("click", () => {
 window.addEventListener("DOMContentLoaded", () => {
     const saved = localStorage.getItem("username");
     if (saved) {
-        window.location.href = 'http://localhost:8888/hakkason_app/pages/home.html';
+        window.location.href = '/hakkason_app/pages/home.html';
     }
 })
